@@ -1,0 +1,82 @@
+[
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/kimdonghyun/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/cores/arduino"
+  },
+  {
+    "Sourcefile": null,
+    "Include": "",
+    "Includepath": "/Users/kimdonghyun/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/variants/standard"
+  },
+  {
+    "Sourcefile": "/Users/kimdonghyun/developer/arduino/rfid_project/build/sketch/app.ino.cpp",
+    "Include": "SPI.h",
+    "Includepath": "/Users/kimdonghyun/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SPI/src"
+  },
+  {
+    "Sourcefile": "/Users/kimdonghyun/developer/arduino/rfid_project/build/sketch/app.ino.cpp",
+    "Include": "MFRC522.h",
+    "Includepath": "/Users/kimdonghyun/Documents/Arduino/libraries/MFRC522/src"
+  },
+  {
+    "Sourcefile": "/Users/kimdonghyun/developer/arduino/rfid_project/build/sketch/app.ino.cpp",
+    "Include": "Servo.h",
+    "Includepath": "/Users/kimdonghyun/Applications/Arduino.app/Contents/Java/libraries/Servo/src"
+  },
+  {
+    "Sourcefile": "/Users/kimdonghyun/developer/arduino/rfid_project/build/sketch/app.ino.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/kimdonghyun/Applications/Arduino.app/Contents/Java/hardware/arduino/avr/libraries/SPI/src/SPI.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/kimdonghyun/Documents/Arduino/libraries/MFRC522/src/MFRC522.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/kimdonghyun/Documents/Arduino/libraries/MFRC522/src/MFRC522Extended.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/kimdonghyun/Applications/Arduino.app/Contents/Java/libraries/Servo/src/avr/Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/kimdonghyun/Applications/Arduino.app/Contents/Java/libraries/Servo/src/mbed/Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/kimdonghyun/Applications/Arduino.app/Contents/Java/libraries/Servo/src/megaavr/Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/kimdonghyun/Applications/Arduino.app/Contents/Java/libraries/Servo/src/nrf52/Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/kimdonghyun/Applications/Arduino.app/Contents/Java/libraries/Servo/src/sam/Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/kimdonghyun/Applications/Arduino.app/Contents/Java/libraries/Servo/src/samd/Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  },
+  {
+    "Sourcefile": "/Users/kimdonghyun/Applications/Arduino.app/Contents/Java/libraries/Servo/src/stm32f4/Servo.cpp",
+    "Include": "",
+    "Includepath": null
+  }
+]
