@@ -1,5 +1,3 @@
-#include <Arduino.h>
-#line 1 "/Users/kimdonghyun/developer/arduino/rfid_project/dong/app.ino"
 #include <SPI.h>     //
 #include <MFRC522.h> //
 #include <EEPROM.h>  //
@@ -27,23 +25,6 @@ bool registering = false;    // 등록된 id가 있고 rfid가 읽는 상황 && 
 bool id_existing = false;    // 나중에 EEPROM 에 있으면 initstate에서 id_existing = true로 바꿔주자            //
 bool card_attaching = false; //
 
-#line 28 "/Users/kimdonghyun/developer/arduino/rfid_project/dong/app.ino"
-bool equalId(byte *id1, byte *id2);
-#line 40 "/Users/kimdonghyun/developer/arduino/rfid_project/dong/app.ino"
-void register_success(byte *id1, byte *id2);
-#line 52 "/Users/kimdonghyun/developer/arduino/rfid_project/dong/app.ino"
-void register_id();
-#line 121 "/Users/kimdonghyun/developer/arduino/rfid_project/dong/app.ino"
-void close_door();
-#line 135 "/Users/kimdonghyun/developer/arduino/rfid_project/dong/app.ino"
-void open_door();
-#line 149 "/Users/kimdonghyun/developer/arduino/rfid_project/dong/app.ino"
-void check_id();
-#line 171 "/Users/kimdonghyun/developer/arduino/rfid_project/dong/app.ino"
-void setup();
-#line 197 "/Users/kimdonghyun/developer/arduino/rfid_project/dong/app.ino"
-void loop();
-#line 28 "/Users/kimdonghyun/developer/arduino/rfid_project/dong/app.ino"
 bool equalId(byte *id1, byte *id2) //
 {                                  //
   for (byte i = 0; i < 4; i++)     //
@@ -224,4 +205,3 @@ void loop()
     com.print(1, "REGISTRATION");
   }
 }
-

@@ -1,6 +1,6 @@
 {
-    "sketch": "final/app.ino",
+    "sketch": "dong/app.ino",
     "output": "build",
     "board": "arduino:avr:uno",
-    "port": "/dev/tty.usbmodem1201"
+    "port": "/dev/tty.usbmodem1101"
 }
